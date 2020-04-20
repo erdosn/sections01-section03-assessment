@@ -55,7 +55,7 @@ def section3_partB(numbers, divisors):
 def levelUp_partA(n):
     d = 2
     while True:
-        if d >= n**0.5:
+        if d >= n**0.5+1:
             break
         if n%d==0:
             return False
